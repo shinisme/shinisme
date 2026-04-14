@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=SeungYeon🍀&textBg=false&fontColor&animation=twinkling)
+![header](https://capsule-render.vercel.app/api?type=soft&height=300&color=gradient&text=SeungYeon🍀&textBg=false&animation=twinkling)
 <br/>
 
 ## SEUNGURI 😸
