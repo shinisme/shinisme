@@ -1,5 +1,7 @@
-![header](https://capsule-render.vercel.app/api?type=soft&height=300&color=gradient&text=SeungYeon🍀&textBg=false&animation=twinkling)
-<br/>
+<div align= "center">
+    <img src="https://capsule-render.vercel.app/api?type=soft&color=fff0f0&height=180&text=SeungYeon'sssss%20Giiiiiittttt%20&animation=twinkling&fontColor=edc0d7&fontSize=40" />
+    </div>
+    
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+house;I+am+SEUNGURI)](https://git.io/typing-svg)
 
