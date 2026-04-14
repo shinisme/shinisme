@@ -1,3 +1,6 @@
+![header](https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=SeungYeon🍀&textBg=false&fontColor&animation=twinkling)
+<br/>
+
 ## SEUNGURI 😸
 <a href="https://github.com/devxb/gitanimals">
   <img src="https://render.gitanimals.org/farms/{shinisme}"/>
