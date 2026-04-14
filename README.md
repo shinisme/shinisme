@@ -1,6 +1,8 @@
 ![header](https://capsule-render.vercel.app/api?type=soft&height=300&color=gradient&text=SeungYeon🍀&textBg=false&animation=twinkling)
 <br/>
 
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+house;I+am+SEUNGURI)](https://git.io/typing-svg)
+
 
 ## SEUNGURI 😸
 <a href="https://github.com/devxb/gitanimals">
