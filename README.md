@@ -27,14 +27,35 @@ API 명세와 실제 응답을 꼼꼼히 맞춰 보고, 코드 리뷰로 팀과 
 - **캐치테이블 리디자인 (SOPT 39기 합동세미나 · Android)**: 친구와 함께 식당을 고르는 **'함께 고르기' 투표 기능**을 더한 예약 앱 리디자인입니다. 홈 화면과 하단 내비 · 탭바 공통 컴포넌트를 만들고, 진행 중인 투표 조회 API를 **Dto → Mapper → Repository → UseCase → ViewModel**로 계층 분리해 연동했습니다. 화면 복귀 시(`ON_RESUME`) 재조회해 투표 상태가 항상 최신으로 보이도록 했습니다.  
   기술: Kotlin, Jetpack Compose, Retrofit, Hilt, Coil | [GitHub](https://github.com/SOPT-all/39-COLLABORATION-ANDROID-CATCHTABLE)
 
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/0468cd7e-8790-49ed-a70f-70732fa17c25" width="640" alt="캐치테이블 리디자인 표지"/>
+  </p>
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/96e7a50e-91f0-425c-bccc-f1766825fcc5" width="200" alt="홈 화면 기본"/>&nbsp;&nbsp;
+    <img src="https://github.com/user-attachments/assets/d39a029e-d37f-4386-9e85-9e6171a91ad0" width="200" alt="홈 화면 진행 중인 투표"/>
+    <br/><sub>내가 맡은 홈 화면 (기본 · 진행 중인 투표 있을 때)</sub>
+  </p>
+
+
 - **놀잇 (SOPT 39기 솝커톤 · 1박 2일)**: 세대를 잇는 놀이 문화 교류 앱입니다. CompositionLocal 기반 **디자인 시스템**(Color · Typography 11종)과 공통 컴포넌트를 만들고, 마이페이지에서 실패 응답의 **에러 code별로 안내 문구를 나누는** Loading · Success · Error 흐름을 구현했습니다.  
   기술: Kotlin, Jetpack Compose, Retrofit, Hilt | [GitHub](https://github.com/SOPT-all/39-SOPKATHON-ANDROID-ANDROID1)
+
+  <p align="center">
+    <img src="assets/nolit-cover.jpg" width="640" alt="놀잇 소개 이미지"/>
+  </p>
+
 
 - **UMCine (UMC 11기 · Web / Spring)**: 회원가입 · 로그인 후 영화에 평점을 남기는 서비스입니다. 평점 CRUD REST API와 **JWT 인증 · 인가**를 구현해 남의 평점 수정은 403으로 막고, H2 통합 테스트 7개와 Postman으로 검증한 뒤 React 화면과 직접 연결했습니다.  
   기술: Java 21, Spring Boot, JPA, MySQL, React, TypeScript | [GitHub](https://github.com/DGU-UMC-11th/PE-Web-B)
 
 - **PICDAY (UMC 10기 데모데이)**: 조건에 맞는 사진관을 찾고 예약 · 리뷰를 관리하는 서비스입니다. 마이페이지의 **예약 상세 · 취소 · 재예약**, 0.5점 단위 리뷰 작성, 프로필 수정 · 중복 확인을 맡고 공통 컴포넌트를 분리했습니다.  
   기술: React, TypeScript, Vite, Tailwind CSS, Zustand, TanStack Query | [GitHub](https://github.com/UMC-PICDAY/PICDAY_FE)
+
+  <p align="center">
+    <img src="assets/picday-reservation-detail.jpg" width="200" alt="PICDAY 예약 상세 화면"/>
+    <br/><sub>내가 맡은 마이페이지 예약 상세 화면</sub>
+  </p>
+
 
 - **모바일소프트웨어 Android 앱 (전공 수업)**: 코루틴 · Retrofit · Coil로 서버 사진을 그리드로 보여주는 **사진 그리드 앱**(단위 테스트 6개)과, 600 / 840dp 기준으로 1-pane ↔ 2-pane이 바뀌는 **적응형 할 일 앱**(단위 14개 · UI 테스트 4개)을 만들었습니다.  
   기술: Kotlin, Jetpack Compose, Coroutine, Retrofit, Coil, ViewModel, StateFlow
