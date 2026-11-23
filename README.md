@@ -63,6 +63,18 @@ API 명세와 실제 응답을 꼼꼼히 맞춰 보고, 코드 리뷰로 팀과 
 - **모바일소프트웨어 Android 앱 (전공 수업)**: 코루틴 · Retrofit · Coil로 서버 사진을 그리드로 보여주는 **사진 그리드 앱**(단위 테스트 6개)과, 600 / 840dp 기준으로 1-pane ↔ 2-pane이 바뀌는 **적응형 할 일 앱**(단위 14개 · UI 테스트 4개)을 만들었습니다.  
   기술: Kotlin, Jetpack Compose, Coroutine, Retrofit, Coil, ViewModel, StateFlow
 
+  <p align="center">
+    <img src="assets/photo_loading.png" width="160" alt="사진 그리드 앱 로딩 화면"/>&nbsp;&nbsp;
+    <img src="assets/photo_grid.png" width="160" alt="사진 그리드 앱 그리드 화면"/>&nbsp;&nbsp;
+    <img src="assets/photo_error.png" width="160" alt="사진 그리드 앱 에러 화면"/>
+    <br/><sub>사진 그리드 앱 (Loading · Success · Error)</sub>
+  </p>
+  <p align="center">
+    <img src="assets/todo_phone.png" width="160" alt="적응형 할 일 앱 폰 화면"/>&nbsp;&nbsp;
+    <img src="assets/todo_tablet.png" width="460" alt="적응형 할 일 앱 태블릿 화면"/>
+    <br/><sub>적응형 할 일 앱 (폰 1-pane · 태블릿 2-pane)</sub>
+  </p>
+
 ## 🐝 Tech Stack
 
 ### Android
