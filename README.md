@@ -52,6 +52,9 @@ API 명세와 실제 응답을 꼼꼼히 맞춰 보고, 코드 리뷰로 팀과 
   기술: React, TypeScript, Vite, Tailwind CSS, Zustand, TanStack Query | [GitHub](https://github.com/UMC-PICDAY/PICDAY_FE)
 
   <p align="center">
+    <img src="assets/picday-cover.jpg" width="640" alt="PICDAY 소개 이미지"/>
+  </p>
+  <p align="center">
     <img src="assets/picday-reservation-detail.jpg" width="200" alt="PICDAY 예약 상세 화면"/>
     <br/><sub>내가 맡은 마이페이지 예약 상세 화면</sub>
   </p>
